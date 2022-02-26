@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0088BB;
+    width: 100%;
+    height: 33.5px;
+}
+
+.container {
+    background-color: #FFFCFC;
+    margin: 25px;
+}
+
+.container__pictures {
+    background-color: rgb(232, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__pictures > div {
+    width: 320px;
+    height: 240px;
+    background-color: rgb(196, 196, 196);
+    margin: 28px;
+}
+
+.container__tags {
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 25px 0;
+}
+
+.container__tags > div {
+    width: 70px;
+    height: 13px;
+    background-color: rgb(232, 227, 227);
+    margin: 10px 15px;
+}
+
+.footer {
+    background-color: #0088BB;
+    width: 100%;
+    height: 38px;
+}
