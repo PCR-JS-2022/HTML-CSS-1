@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
 }
 header {
+    height: 10vh;
     background-color: #0088BB;
     margin: 10px 50px;
     display: flex;
@@ -19,6 +20,7 @@ footer {
     font-weight: 500;
     padding-left: 30px;
     line-height: 1.8;
+    height: 10vh;
 }
 div.images img {
     width: 320px;
@@ -32,5 +34,19 @@ div.images {
 }
 .tags {
     margin: 10px 50px;
-    flex-basis: auto
+    flex-basis: auto;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+.catsTag{
+    color: sienna;
+}
+.dogsTag{
+    color: blue;
+}
+.carsTag{
+    color: darkgreen;
+}
+.animalsTag{
+    color: coral;
 }
