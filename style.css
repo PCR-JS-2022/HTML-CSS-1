@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.title {
+    text-align: center;
+    background-color: #0088BB;
+    margin: 0 0 5px;
+    padding: 10px 0;
+}
+
+.content {
+    padding: 20px 30px;
+    display: grid;
+    gap: 30px;
+}
+
+.content .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 30px;
+    justify-content: center;
+    background-color: #fcb1ba;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.photos .photo_block {
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.photo_block .photo {
+    border-radius: 10px;
+}
+
+.photos .photo_block:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+    box-shadow: 0 0 20px 10px rgba(0, 144, 255, 0.5);
+}
+
+.content .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #e5e5e5;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.tags .tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: slategrey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag.red {
+    background-color: red;
+}
+
+.tag.green {
+    background-color: green;
+}
+
+.tag.blue {
+    background-color: blue;
+}
+
+.tag.orange {
+    background-color: orange;
+}
+
+.tag.pink {
+    background-color: pink;
+}
+
+.tag.white {
+    background-color: white;
+}
+
+.tag.yellow {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: #0088BB;
+    margin: 5px 0 0;
+    padding: 20px 30px;
+}
+
+.footer p {
+    text-align: right;
+}
+
+.footer .name {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
