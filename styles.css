@@ -1,0 +1,37 @@
+header {
+    height: 33.5px;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 32px;
+}
+
+footer {
+    height: 38px;
+    margin-top: 32px;
+    border-top: 1px solid #C4C4C4;
+}
+
+.imgs__img {
+    width: 320px;
+    height: 240px;
+}
+
+.imgs {
+    margin: 32px;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    background-color: #C4C4C433;
+}
+
+.tags {
+    margin: 32px;
+    background-color: #C4C4C433;
+    padding: 32px;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8px;
+}
