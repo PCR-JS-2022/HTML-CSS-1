@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    height: 33.5px;
+    width: 100%;
+    border-bottom: 2px solid silver;
+    background-color: #0088BB;
+}
+
+main
+{
+    padding: 10px;
+}
+
+.photo-gallery
+{
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    row-gap: 10px;
+    
+}
+
+.photo
+{
+    width: 320px;
+    height: 240px;
+}
+
+.tags
+{
+   width: 80%; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 20px auto 0 auto;
+}
+
+footer
+{
+    border-bottom: 2px solid silver;
+    background-color: #0088BB;
+    height: 38px;
+}
