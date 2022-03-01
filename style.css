@@ -34,19 +34,11 @@ div.images {
 }
 .tags {
     margin: 10px 50px;
-    flex-basis: auto;
-    padding: 10px 50px;
-    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
 }
-.catsTag{
-    color: sienna;
-}
-.dogsTag{
-    color: blue;
-}
-.carsTag{
-    color: darkgreen;
-}
-.animalsTag{
-    color: coral;
+.tags > * {
+    background:grey;
+    padding: 2px 10px;
 }
