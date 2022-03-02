@@ -9,10 +9,6 @@ header, footer {
 	height: 80px;
 }
 
-footer {
-    margin-bottom: 40px;
-}
-
-header {
-	margin-top: 40px;
+.container {
+    margin: 30px;
 }
