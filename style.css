@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.header {
+    background-color: #0088BB;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+
+.footer {
+    background-color: #0088BB;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin: 20px 0 0 0;
+}
+
+.gallery {
+    padding: 34px;
+    background-color: #b4dff0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.photos img {
+    border-radius: 10%;
+    width: 320px;
+    height: 240px;
+    margin: 20px;
+}
+.tag {
+    border: 3px solid #0088BB;
+    margin: 0 20px 0 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+.tags {
+    padding: 30px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
