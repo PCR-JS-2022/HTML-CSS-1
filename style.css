@@ -35,6 +35,7 @@ body {
     height: 240px;
     margin: 20px;
 }
+
 .tag {
     border: 3px solid #0088BB;
     margin: 0 20px 0 20px;
@@ -42,8 +43,9 @@ body {
     height: 20px;
     text-align: center;
 }
+
 .tags {
-    padding: 30px;
+    padding: 34px;
     background-color: #e5e5e5;
     display: flex;
     flex-wrap: wrap;
