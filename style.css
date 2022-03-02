@@ -24,15 +24,17 @@ main
     margin: 0 auto 0 auto;
     width: 80%;
     flex-wrap: wrap; 
-    justify-content: space-evenly;
+    justify-content:space-between;
     row-gap: 10px;
+    background-color: rgba(196, 196, 196, 0.2);
     
 }
 
 .photo
 {
-    width: 320px;
+
     height: 240px;
+    flex-basis: 320px;
 }
 
 .tags
@@ -40,8 +42,9 @@ main
    width: 80%; 
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-evenly;
+   justify-content: space-between;
    margin: 20px auto 0 auto;
+   background-color: rgba(196, 196, 196, 0.2);
 }
 
 footer
