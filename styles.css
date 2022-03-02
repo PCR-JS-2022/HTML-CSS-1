@@ -12,3 +12,14 @@ header, footer {
 .container {
     margin: 30px;
 }
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.images img {
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+}
