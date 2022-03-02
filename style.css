@@ -34,3 +34,7 @@ footer {
     background-color: #cccccc;
     margin: 10px 15px;
 }
+
+body {
+    margin: 0;
+}
