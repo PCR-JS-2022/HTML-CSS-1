@@ -1,0 +1,40 @@
+header, footer {
+    background-color: #0088BB;
+    height: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.photos-block {
+    margin: 30px;
+    padding: 30px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos-block img {
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+}
+
+.tags-block {
+    margin: 30px;
+    padding: 20px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tags-block span {
+    width: 80px;
+    height: 20px;
+    background-color: #bbbbbb;
+    margin: 15px;
+}
