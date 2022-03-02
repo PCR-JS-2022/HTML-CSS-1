@@ -1,0 +1,12 @@
+.pictures {
+    background-color: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictures > div {
+    width: 320px;
+    height: 240px;
+    background-color: rgb(196, 196, 196);
+    margin: 15px;
+}

@@ -1,0 +1,13 @@
+.tags {
+    background-color: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 25px 0;
+}
+
+.tags > div {
+    width: 100px;
+    height: 30px;
+    background-color: #818283;
+    margin: 10px 15px;
+}
