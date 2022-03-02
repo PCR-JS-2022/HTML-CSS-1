@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+    background: #0088BB;
+}
+
+.footer{
+    background: #0088BB;
+}
+
+.photos{
+    background: rgba(196, 196, 196, 0.2);
+    margin: 0 auto;
+}
+
+.photo {
+    max-width: 320px;
+    max-height: 240px;
+    padding: 20px;
+}
+
+.tags{
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgba(196, 196, 196, 0.2);
+}
+
+.tag{
+    display: inline-block;
+    background: #E9E3E3;
+    margin: 10px 20px;
+}
+
+.content{
+    margin: 20px 0;
+}
