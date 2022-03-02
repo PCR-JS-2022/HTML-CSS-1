@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header, .footer {
+	background-color: #0088BB;
+	width: 100%;
+	height: 80px;
+}
