@@ -32,17 +32,17 @@ body {
 .photos-block {
     display: grid;
     margin-bottom: 40px;
+    padding: 30px;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-items: center;
-}
-
-.photo {
-    width: 320px;
-    height: 240px;
+    background-color: #A6DAEE;
+    border-radius: 5px;
 }
 
 .image {
+    width: 320px;
+    height: 240px;
     border: 7px solid transparent;
     transition: border-bottom-color, border-left-color, border-top-color, border-right-color;
     transition-duration: 0.5s;
@@ -58,9 +58,11 @@ body {
 
 .tags-block {
     display: flex;
-    padding: 0 40px;
+    padding: 40px;
     flex-wrap: wrap;
     gap: 10px 20px;
+    background-color: #A6DAEE;
+    border-radius: 5px;
 }
 
 .tag {
