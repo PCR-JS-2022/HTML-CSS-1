@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color:#0088BB;
+    height: 10%;
+    outline: 1px solid black;
+}
+
+.content {
+    background-color:white;
+    min-height: 80%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer {
+    background-color:#0088BB;
+    height: 10%;
+    outline: 1px solid black;
+    margin-top: 20px;
+}
+
+.photo {
+    width:320px;
+    height:240px;
+    background-color: orange;
+    margin-bottom: 2%;
+}
+
+span {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 3px;
+    margin-right: 1%;
+}
+
+.tags {
+    background-color: aquamarine;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100px;
+    padding: 2%;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
