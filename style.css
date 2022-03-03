@@ -1,0 +1,23 @@
+img{
+    width: 320px;
+    height: 240px;
+    display: inline-block;
+}
+.container{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
+.footer,.header{
+    background-color: #0088BB;
+    margin: 10px 0;
+    height: 20px;
+}
+.tag{
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
