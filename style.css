@@ -1,0 +1,45 @@
+header {
+    background: #0088BB;
+    height: 80px;
+}
+
+footer {
+    background: #0088BB;
+    height: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tags {
+    margin: 30px;
+    padding: 20px;
+    background: #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tags span {
+    width: 80px;
+    height: 20px;
+    background: #bbbbbb;
+    margin: 15px;
+}
+
+.gallery {
+    margin: 30px;
+    padding: 30px;
+    background: #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 320px;
+    height: 240px;
+    margin: 15px;
+}
