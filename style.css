@@ -1,0 +1,40 @@
+.photo-block {
+    height: 240px;
+    width: 320px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.photos-block {
+    padding: 0px 15px;
+    margin: 25px 0px;
+    background-color: rgba(196, 196, 196, 0.2);
+}
+
+header, footer {
+    height: 85px;
+    background-color: #0088BB;
+}
+
+main{
+    padding: 0px 60px;
+}
+
+.tags-block {
+    background-color: rgba(196, 196, 196, 0.2);
+    margin: 25px 0px;
+    padding: 0px 15px;
+}
+
+.tag {
+    height: 29px;
+    width: 179px;
+    margin: 15px;
+    display: inline-block;
+    background-color: #E9E3E3;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
