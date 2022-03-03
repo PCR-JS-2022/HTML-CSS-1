@@ -48,9 +48,9 @@ footer{
     background: #c4c4c433;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: space-between;
     row-gap: 42px;
-    column-gap: 32px;
+    column-gap: 22px;
 }
 
 .main__photo{
