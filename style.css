@@ -12,8 +12,7 @@ header, footer {
     background-color: #0088BB;
     width: 100%;
     height: 100px;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 10px;
     float: left;
 }
 
@@ -23,11 +22,14 @@ header, footer {
     display: inline-flex;
     flex:fit-content;
     flex-wrap: wrap;
+    background-color: #FFFCFC;
 }
 
 .tags {
     text-align: center;
     margin: auto;
+    display: inline-block;
+    background-color: #FFFCFC;
 }
 
 .tag {
@@ -43,6 +45,5 @@ header, footer {
 .photocontainer{
     text-align: center;
     margin: 10px;
-    width: 100%;
-    background-color: #FFFCFC;
+    display: inline-block;
 }
