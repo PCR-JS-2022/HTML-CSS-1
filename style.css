@@ -1,25 +1,32 @@
 .photo {
     height: 240px;
     width: 320px;
-    display: inline-block;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 header, footer {
     background-color: #0088BB;
     width: 100%;
     height: 100px;
-    margin: 2% auto;
-    padding: 2% auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    float: left;
 }
 
 .photos {
-    text-align: center;
-    margin: auto 2%;
+    margin: auto;
+    padding: 2%;
+    display: inline-flex;
+    flex:fit-content;
+    flex-wrap: wrap;
 }
 
 .tags {
     text-align: center;
-    margin: auto 2%;
+    margin: auto;
 }
 
 .tag {
@@ -29,4 +36,9 @@ header, footer {
     margin: 0.5em;
     font: 18px arial;
     background-color: aquamarine;
+    float:left;
+}
+
+.photocontainer{
+    text-align: center;
 }
