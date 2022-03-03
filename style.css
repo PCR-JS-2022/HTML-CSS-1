@@ -1,12 +1,10 @@
-.photocard {
-    background-color: blueviolet;
+.photo {
     height: 240px;
     width: 320px;
     display: inline-block;
-    float: left;
 }
 
-header footer {
+header, footer {
     background-color: #0088BB;
     width: 100%;
     height: 100px;
@@ -14,7 +12,21 @@ header footer {
     padding: 2% auto;
 }
 
-.photo {
-    align-items: center;
+.photos {
+    text-align: center;
     margin: auto 2%;
+}
+
+.tags {
+    text-align: center;
+    margin: auto 2%;
+}
+
+.tag {
+    display: inline-flex;
+    flex: content;
+    padding: 1.5em;
+    margin: 0.5em;
+    font: 18px arial;
+    background-color: aquamarine;
 }
