@@ -1,15 +1,25 @@
-.title{
-    text-align: center;
-    background: #0088BB;
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    padding-top: 10px;
 }
 
-.footer{
+.title, .footer{
     background: #0088BB;
+    height: 70px;
+}
+
+.title{
+    text-align: center;
 }
 
 .photos{
     background: rgba(196, 196, 196, 0.2);
-    margin: 0 auto;
+    margin: 0 10%;
+    text-align: center;
 }
 
 .photo {
@@ -19,7 +29,7 @@
 }
 
 .tags{
-    margin: 0 auto;
+    margin: 0 10%;
     margin-top: 20px;
     background: rgba(196, 196, 196, 0.2);
 }
