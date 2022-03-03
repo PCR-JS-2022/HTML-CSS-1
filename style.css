@@ -5,6 +5,7 @@
     float: left;
     margin-left: 30px;
     margin-bottom: 30px;
+    background-color: #C4C4C4;
 }
 
 header, footer {
@@ -35,10 +36,11 @@ header, footer {
     padding: 1.5em;
     margin: 0.5em;
     font: 18px arial;
-    background-color: aquamarine;
+    background-color: #E9E3E3;
     float:left;
 }
 
 .photocontainer{
     text-align: center;
+    width: 100%;
 }
