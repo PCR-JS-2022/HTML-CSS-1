@@ -5,7 +5,7 @@ img{
 }
 .container{
     background-color: aliceblue;
-    text-align: center;
+    text-align: left; 
     margin: 40px;
     padding: 40px;
 }
@@ -20,4 +20,4 @@ img{
     text-align: center;
     padding: 20px;
     margin: 5px;
-}
+} 
